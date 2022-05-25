@@ -19,7 +19,7 @@ int main(void) {
 
   *ps = *pa + *pb;
 
-  printf("Valores dos dois numeros:\n%d [%p] \n%d [%p]   \nValor da soma:\n%d [%p]",*pa,pa,*pb,pb,*ps,ps);
+  printf("Valores dos dois numeros:\n%d [%p] \n%d [%p]   \nValor da soma:\n%d [%p]\n",*pa,pa,*pb,pb,*ps,ps);
   return 0;
   
 }
